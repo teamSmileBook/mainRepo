@@ -49,7 +49,7 @@
         android:paddingLeft="10dp"
         android:layout_marginTop="260dp"
         android:hint="loginId"
-        android:background="@drawable/rectangle_1"
+        android:background="@drawable/rectangle_logininfo"
         />
 
     <TextView
@@ -62,14 +62,15 @@
         android:layout_marginTop="276dp"
         android:text="아이디"
         android:textAppearance="@style/login_join"
-        android:gravity="top"
+        android:gravity="center"
         />
 
     <EditText
         android:layout_width="240dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginLeft="120dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginLeft="130dp"
+        android:background="@null"
         android:hint="id"/>
 
 
@@ -87,12 +88,12 @@
         android:layout_marginLeft="39dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="336dp"
-        android:background="@drawable/rectangle_1"
+        android:background="@drawable/rectangle_logininfo"
         />
 
     <TextView
         android:id="@+id/loginPw_text"
-        android:layout_width="59dp"
+        android:layout_width="60dp"
         android:layout_height="17dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="54dp"
@@ -100,16 +101,16 @@
         android:layout_marginTop="352dp"
         android:text="비밀번호"
         android:textAppearance="@style/login_join"
-        android:gravity="top"
+        android:gravity="center"
         />
 
     <EditText
-        android:layout_width="240dp"
-        android:layout_height="48dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="336dp"
-        android:hint="password"
-        />
+        android:layout_width="244dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="352dp"
+        android:background="@null"
+        android:hint="password" />
 
     <CheckBox
         android:id="@+id/autologinCheckbox"
@@ -148,7 +149,7 @@
         android:layout_marginLeft="121dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="471dp"
-        android:background="@drawable/rectangle_2"
+        android:background="@drawable/rectangle_mainbutton"
         android:text="로그인"
         android:contentDescription="로그인"
         />
@@ -180,7 +181,7 @@
         android:layout_marginLeft="121dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="548dp"
-        android:background="@drawable/rectangle_2"
+        android:background="@drawable/rectangle_mainbutton"
         android:text="회원가입"
         android:contentDescription="회원가입"
         />
@@ -203,6 +204,79 @@
       Line height: 22sp
       (identical to box height)
       -->
+
+    <Button
+        android:id="@+id/find_id_button"
+        android:layout_width="75dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="118dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="612dp"
+        android:background="#00ff0000"
+        />
+
+    <TextView
+        android:id="@+id/find_id"
+        android:layout_width="58dp"
+        android:layout_height="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="617dp"
+        android:text="아이디 찾기"
+        android:textAppearance="@style/find_account"
+        android:gravity="center_horizontal|bottom"
+        />
+
+    <View
+        android:id="@+id/line_77"
+        android:layout_width="21dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="205dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="612dp"
+        android:background="@drawable/line"
+        />
+
+    <Button
+        android:id="@+id/find_pw_button"
+        android:layout_width="75dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="217dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="612dp"
+        android:background="#00ff0000"
+        />
+
+    <!--
+    Font family: JejuGothic
+    Line height: 13sp
+    (identical to box height)
+    -->
+
+    <TextView
+        android:id="@+id/find_pw"
+        android:layout_width="75dp"
+        android:layout_height="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="217dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="617dp"
+        android:text="비밀번호 찾기"
+        android:textAppearance="@style/find_account"
+        android:gravity="center_horizontal|bottom"
+        />
+    <!--
+    Font family: JejuGothic
+    Line height: 13sp
+    (identical to box height)
+    -->
+
+
+
 
 </RelativeLayout>
 

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="411dp"
+    android:layout_height="732dp"
+    android:clipToOutline="true"
+    android:background="#FFFFFF"
+    >
+    <View
+        android:id="@+id/icons8_smil"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/icons8_smile_32"
+        />
+
+    <View
+        android:id="@+id/rectangle_modify_info"
+        android:layout_width="139dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/rectangle_top"
+        />
+
+    <TextView
+        android:id="@+id/modify_top_textview"
+        android:layout_width="72dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+        android:text="정보 수정"
+        android:textAppearance="@style/top"
+        android:gravity="center_horizontal"
+        />
+    <!--
+    Font family: JejuGothic
+    Line height: 20sp
+    (identical to box height)
+    -->
+
+    <TextView
+        android:id="@+id/modify_guide_nickname"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="227dp"
+        android:text="닉네임"
+        android:textAppearance="@style/guide"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/rectangle_modify_nickname"
+        android:layout_width="343.54dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="251dp"
+        android:background="@drawable/rectangle_modify_info"
+        />
+
+    <TextView
+        android:id="@+id/modify_guide_id"
+        android:layout_width="139dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="316dp"
+        android:text="아이디(이메일)"
+        android:textAppearance="@style/guide"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/rectangle_modify_email"
+        android:layout_width="142.15dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/rectangle_modify_email"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="19dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="191dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:text="\@"
+        android:textAppearance="@style/guide"
+        android:gravity="center"
+        />
+
+    <View
+        android:id="@+id/rectangle_email_address"
+        android:layout_width="135.91dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="232.92dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/rectangle_modify_email"
+        />
+
+    <Spinner
+        android:id="@+id/email_spinner"
+        android:layout_width="343.54dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25.08dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="395dp"
+        android:background="@drawable/rectangle_email_spinner"
+        />
+
+    <TextView
+        android:id="@+id/modify_guide_pw"
+        android:layout_width="84dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="460dp"
+        android:text="비밀번호"
+        android:textAppearance="@style/guide"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/rectangle_modify_pw"
+        android:layout_width="343.54dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24.69dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="485.37dp"
+        android:background="@drawable/rectangle_modify_info"
+        />
+
+    <TextView
+        android:id="@+id/modify_guide_phoneNum"
+        android:layout_width="84dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:text="전화번호"
+        android:textAppearance="@style/guide"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/rectangle_modify_phoneNum"
+        android:layout_width="343.54dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25.76dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="575.37dp"
+        android:background="@drawable/rectangle_modify_info"
+        />
+
+    <View
+        android:id="@+id/modify_button"
+        android:layout_width="169dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="628dp"
+        android:background="@drawable/rectangle_mainbutton"
+        />
+    <TextView
+        android:id="@+id/modify_textview"
+        android:layout_width="38dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="187dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="641dp"
+        android:text="수정"
+        android:textAppearance="@style/button_white"
+        android:gravity="center"
+        />
+
+
+
+
+</RelativeLayout>
+
+

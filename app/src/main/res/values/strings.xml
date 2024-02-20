@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">smilebook</string>
+
+    <string name="some_id">
+        \u00ec\u009d\u00b4\u00eb\u00a9\u0094\u00ec\u009d\u00bc \u00ec\u009d\u00b8\u00ec\u00a6\u009d
+    </string>
+
 </resources>
