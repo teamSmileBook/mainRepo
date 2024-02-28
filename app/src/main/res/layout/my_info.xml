@@ -71,6 +71,18 @@
         android:background="@drawable/rectangle_modify_info"
         />
 
+    <EditText
+        android:layout_width="333dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="251dp"
+        android:background="@null"
+        android:hint="닉네임"
+        android:textAppearance="@style/login_join"
+        />
+
     <TextView
         android:id="@+id/modify_guide_id"
         android:layout_width="139dp"
@@ -86,7 +98,7 @@
 
     <View
         android:id="@+id/rectangle_modify_email"
-        android:layout_width="142.15dp"
+        android:layout_width="142dp"
         android:layout_height="39dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="24dp"
@@ -94,6 +106,20 @@
         android:layout_marginTop="340dp"
         android:background="@drawable/rectangle_modify_email"
         />
+
+    <TextView
+        android:id="@+id/modifyinfo_id"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:text="UserId"
+        android:textAppearance="@style/guide"
+        android:gravity="center_vertical"
+        />
+
     <TextView
         android:id="@+id/email"
         android:layout_width="19dp"
@@ -117,6 +143,20 @@
         android:layout_marginTop="340dp"
         android:background="@drawable/rectangle_modify_email"
         />
+
+    <TextView
+        android:id="@+id/modifyinfo_email"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="238dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:text="UserEmail"
+        android:textAppearance="@style/guide"
+        android:gravity="center_vertical"
+        />
+
 
     <Spinner
         android:id="@+id/email_spinner"
@@ -147,10 +187,23 @@
         android:layout_width="343.54dp"
         android:layout_height="39dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="24.69dp"
+        android:layout_marginLeft="24dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="485.37dp"
         android:background="@drawable/rectangle_modify_info"
+        />
+
+    <EditText
+        android:layout_width="333dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="485.37dp"
+        android:textAppearance="@style/login_join"
+        android:background="@null"
+        android:hint="*********"
+
         />
 
     <TextView
@@ -171,13 +224,25 @@
         android:layout_width="343.54dp"
         android:layout_height="39dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="25.76dp"
+        android:layout_marginLeft="24dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="575.37dp"
         android:background="@drawable/rectangle_modify_info"
         />
 
-    <View
+    <EditText
+        android:layout_width="333dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="575.37dp"
+        android:textAppearance="@style/login_join"
+        android:background="@null"
+        android:hint="010-XXXX-XXXX"
+        />
+
+    <android.widget.Button
         android:id="@+id/modify_button"
         android:layout_width="169dp"
         android:layout_height="47dp"
@@ -185,8 +250,12 @@
         android:layout_marginLeft="121dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="628dp"
+        android:text="수정"
+        android:textColor="@color/white"
         android:background="@drawable/rectangle_mainbutton"
         />
+
+<!--    텍스트뷰 왜 뒤로 숨지?? ㅜㅜㅜㅜㅜㅜ-->
     <TextView
         android:id="@+id/modify_textview"
         android:layout_width="38dp"

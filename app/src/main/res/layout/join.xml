@@ -291,16 +291,17 @@
         android:background="@drawable/icons8_check_30"
         />
 
-    <View
+    <android.widget.Button
         android:id="@+id/rectangle_1"
         android:layout_width="169dp"
         android:layout_height="47dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="600dp"
+        android:text="가입하기"
         android:background="@drawable/rectangle_mainbutton"
         />
-
+<!--텍스트뷰 왜 숨지-->
     <TextView
         android:id="@+id/some_id"
         android:layout_width="84dp"
